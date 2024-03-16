@@ -1,0 +1,80 @@
+#container{
+  background-color: #1a202c;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#maincontainer{
+  width: 20%;
+  margin: auto;
+  padding: 5% 3%;
+  background-color: #2d3748;
+  border-radius: 20px;
+}
+#heading{
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
+#loginForm{
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+}
+.loginFormInput{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #353f4f;
+  outline: none;
+  border: 0px solid #353f4f;
+  color: #81e6d9;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.loginFormInput::placeholder{
+  color: #53708b;
+  font-weight: bolder
+}
+#loginFormBTN{
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #81e6d9;
+  border: none;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #1a202c;
+  cursor: pointer;
+}
+#loginFormBTN:hover{
+  background-color: #1a202c;
+  color: #81e6d9;
+}
+#dontHaveAC{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: #53708b;
+  gap: 10px;
+}
+#toggleBTN{
+  color: #81e6d9;
+  cursor: pointer;
+}
+#toggleBTN:hover{
+  color: #53708b;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1150px) {
+  #maincontainer{
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #maincontainer{
+    width: 70%;
+  }
+}

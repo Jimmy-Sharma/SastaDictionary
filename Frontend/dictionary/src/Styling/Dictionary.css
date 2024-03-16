@@ -1,0 +1,90 @@
+#dictionaryContainer {
+  background: url(./../../public/dictionaryBG.png) center/cover no-repeat;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dictionaryMainContainer {
+  width: 30%;
+  text-align: center;
+  padding: 40px;
+  background-color: #53708b;
+  border-radius: 20px;
+}
+#dictionaryMainHeading{
+  text-decoration: underline;
+  color: white;
+  margin: auto;
+  margin-bottom: 30px;
+}
+#dictionaryForm{
+  display: grid;
+  width: 70%;
+  margin: auto;
+}
+#dictionaryWordInput{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #353f4f;
+  outline: none;
+  border: 0px solid #353f4f;
+  color: #81e6d9;
+  font-weight: bolder;
+  font-size: 16px;
+}
+#dictionaryWordInput::placeholder{
+  color: #53708b;
+  font-weight: bolder
+}
+#dictionaryWordSearchBTN{
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #81e6d9;
+  border: none;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #1a202c;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#dictionaryWordSearchBTN:hover{
+  background-color: #1a202c;
+  color: #81e6d9;
+}
+#searchOutput{
+  width: 90%;
+  margin: auto;
+  background-color: #81e6d9;
+  font-weight: bolder;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  outline: none;
+}
+h3{
+  color: #81e6d9;
+}
+
+@media screen and (max-width: 950px) {
+  #dictionaryMainContainer{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #dictionaryMainContainer{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #dictionaryMainContainer{
+    width: 80%;
+  }
+}

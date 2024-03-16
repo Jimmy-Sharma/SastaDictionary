@@ -1,0 +1,69 @@
+#todo-list-container {
+  background: url(./../../public/dictionaryBG.png) center/cover no-repeat;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#todo-list-main-container {
+  width: 30%;
+  text-align: center;
+  padding: 40px;
+  background-color: #53708b;
+  border-radius: 20px;
+}
+
+#todo-list-main-heading {
+  text-decoration: underline;
+  color: #81e6d9;
+  margin: auto;
+  margin-bottom: 30px;
+}
+table{
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  font-weight: bold;
+  color: #81e6d9;
+}
+th{
+  background-color: #495064;
+  font-size: 16px;
+  color: #81e6d9;
+  padding: 5px;
+}
+td{
+  border-bottom: 1px solid #81e6d9;
+}
+#buttonTD{
+  border-left: 1px solid #81e6d9;
+}
+#removeBTN{
+  padding: 4px;
+  background-color: #ee1010;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #81e6d9;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 950px) {
+  #todo-list-main-container{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #todo-list-main-container{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #todo-list-main-container{
+    width: 80%;
+  }
+}
